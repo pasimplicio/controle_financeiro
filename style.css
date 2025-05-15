@@ -1,0 +1,139 @@
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+h5 {
+    color: #FFFF00;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.sidebar .nav-link {
+    text-decoration: none !important;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef;
+    color: #000;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.status-bar {
+    color: #6c757d;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+#formDados input:disabled, 
+#formDados select:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+.btn-action:disabled {
+    opacity: 0.65;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+.alert-floating {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.modal-backdrop {
+    z-index: 1040 !important;
+}
+
+.modal {
+    z-index: 1050 !important;
+}
+
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.form-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.btn-action {
+    min-width: 100px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.required-field::after {
+    content: " *";
+    color: red;
+}
+
+.text-white {
+    font-variant: normal !important;
+    text-decoration: none !important;
+}
+
+.text-transform-none {
+    text-transform: none !important;
+}
+</style>
+.btn-home {
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+.sidebar .btn {
+    transition: all 0.3s ease;
+}
+.sidebar .btn:hover {
+    transform: scale(1.05);
+}
