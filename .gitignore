@@ -1,0 +1,7 @@
+.idea/
+*.log
+*.sql
+*.env
+*.DS_Store
+*.bak
+*.tmp
