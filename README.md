@@ -5,6 +5,7 @@ Sistema web simples de controle financeiro pessoal, desenvolvido em PHP, MySQL e
 ## 📂 Estrutura do Projeto
 
 - `index.php` — Página principal do sistema
+- `backup/` — Backup atualizado do banco de dados
 - `config/` — Configurações de conexão com o banco
 - `classes/` — Classes PHP, como DataManager
 - `tables/` — Arquivos de visualização e manipulação de dados
